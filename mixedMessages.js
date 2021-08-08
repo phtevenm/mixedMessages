@@ -40,6 +40,10 @@ const randomMessage = () => {
 	return messages[randomNum];
 };
 
-console.log(randomMessage());
+const mixedMessages = () => {
+	return `${randomSign()}: ${randomMessage()}`;
+};
+
+console.log(mixedMessages());
 
 // Project complete
