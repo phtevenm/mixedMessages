@@ -41,3 +41,5 @@ const randomMessage = () => {
 };
 
 console.log(randomMessage());
+
+// Project complete
