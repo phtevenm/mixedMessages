@@ -45,3 +45,5 @@ const mixedMessages = () => {
 };
 
 console.log(mixedMessages());
+
+console.log('Test');
